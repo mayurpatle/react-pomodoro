@@ -39,7 +39,7 @@ export default function App() {
     clearInterval(intervalRef.current);
     intervalRef.current = null;
     setTitle("Ready to go another round?");
-    setTimeLeft(1 * 60);
+    setTimeLeft(25 * 60);
     setIsRunning(false);
 
     // Play the buzzing sound when the timer hits 00
